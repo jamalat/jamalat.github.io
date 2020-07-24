@@ -53,9 +53,9 @@ define(['pipAPI'], function(APIconstructor) {
                             <p>مدة البحث 30 د ستتلقون مقابله 30ش </p>
                             <p>فور انتهاءكم من البحث سنتلقى رسالة حول ذلك ونقوم بتحويل المبلغ الى حسابكم البنكي </p></br>
                             <p> خلال البحث يطلب منكم قراءه وتخيل 70 جمله  </p></br>
-                            <p> يعد القراءه الرجاء التخيل انفسكم بالوضع الموصوف في كل جمله ويعد ذلك الضغط على الفراغ </p></br>
+                            <p> بعد القراءه الرجاء تخيل انفسكم بالوضع الموصوف في كل جمله وبعد ذلك الضغط على الفراغ </p></br>
                             <p> الجمله تختفي من الشاشه وبعد ذلك يطلب منكم الجواب على 9 اسئله </p></br>                          
-                            <p>الاجوبه المناسبه تضغط بواسطة الضغط على لوجة المفاتيح </p></br>
+                            <p>الاجوبه المناسبه تضغط بواسطة التسجيل على لوجة المفاتيح </p></br>
                             
                             <p> اضغط على الفراغ للبدا بالبحث</p>`,
           
@@ -97,15 +97,15 @@ define(['pipAPI'], function(APIconstructor) {
 
     API.addStimulusSets({
         defaultStim : [{css:{color:'black', 'font-size':'30px'}}],
-        Q1          : [{inherit:'defaultStim', media: 'حددي ما  نوع الشعور الذي اتاكي من  الجمله عندما تخيلت الوضع الموصوف.اذا كان إيجابي اضغطي   1 واذا كان حيادي اضغطي 2 واذا سلبي اضغطي  3'}],
-        Q2          : [{inherit:'defaultStim', media: 'حددي من 1 حتى 9 ما هي شدة هذا الشعور ؟1 بلا شعور 9 شعور قوي جدا   '}],    
-	    Q3          : [{inherit:'defaultStim', media: 'حددي من 1 حتى 9 ما هو احتمال حصول ما ذكر بالجمله لكي ؟1 لا يوجد احتمال 9 احتمال قوي جدا  '}],
-        Q4          : [{inherit:'defaultStim', media: 'حددي من 1 حتى 9 ما مدى سرعة قفز الوضع الموصوف الى مخيلتكي فور قراءتها ؟1 بطئ جدا 9 سريع جدا '}],      
-	    Q5          : [{inherit:'defaultStim', media: 'حددي من 1 حتى 9 مدى كون الوضع الموصوف في الجمله حي ومفصل  ؟1 ليس حي ولا مفصل 9 حي ومفصل جدا '}],
-        Q6          : [{inherit:'defaultStim', media: 'حددي من 1 حتى 9 كم استهلكت من الجهد حتى تتوقفي عن التفكير بالوضع الموصوف بالجمله  ؟1 بلاا جهد9 جهد كبير  '}],    
-	    Q7          : [{inherit:'defaultStim', media: '  حددي من 1 حتى 9 كم كان الوضع الموصوف في الحمله مرتيط بطموحاتكي ؟1 غير مرتبط بتاتا9 مرتبط جدا  '}],
-        Q8          : [{inherit:'defaultStim', media: '  حددي من 1 حتى 9 كم كان الوضع الموصوف في الحمله مرتيط باحتياجاتكي ؟1 غير مرتبط بتاتا9 مرتبط جدا  '}], 
-	    Q9          : [{inherit:'defaultStim', media: ' حددي من 1 حتى 9 كم كان الوضع الموصوف في الجمله مرتبط بمخاوفكي؟1 غير مرتبط بتاتا9مرتبط جدا  '}]   
+        Q1          : [{inherit:'defaultStim', media: 'حدد ما  نوع الشعور الذي اتاك من  الجمله عندما تخيلت الوضع الموصوف.اذا كان إيجاب اضغطي   1 واذا كان حيادي اضغط 2 واذا سلبي اضغط  3'}],
+        Q2          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 ما هي شدة هذا الشعور ؟1 بلا شعور 9 شعور قوي جدا   '}],    
+	    Q3          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 ما هو احتمال حصول ما ذكر بالجمله لكي ؟1 لا يوجد احتمال 9 احتمال قوي جدا  '}],
+        Q4          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 ما مدى سرعة قفز الوضع الموصوف الى مخيلتك فور قراءتها ؟1 بطئ جدا 9 سريع جدا '}],      
+	    Q5          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 مدى كون الوضع الموصوف في الجمله حي ومفصل  ؟1 ليس حي ولا مفصل 9 حي ومفصل جدا '}],
+        Q6          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 كم استهلكت من الجهد حتى تتوقف عن التفكير بالوضع الموصوف بالجمله  ؟1 بلاا جهد9 جهد كبير  '}],    
+	    Q7          : [{inherit:'defaultStim', media: '  حدد من 1 حتى 9 كم كان الوضع الموصوف في الحمله مرتيط بطموحاتك ؟1 غير مرتبط بتاتا9 مرتبط جدا  '}],
+        Q8          : [{inherit:'defaultStim', media: '  حدد من 1 حتى 9 كم كان الوضع الموصوف في الحمله مرتيط باحتياجاتك ؟1 غير مرتبط بتاتا9 مرتبط جدا  '}], 
+	    Q9          : [{inherit:'defaultStim', media: ' حدد من 1 حتى 9 كم كان الوضع الموصوف في الجمله مرتبط بمخاوفك؟1 غير مرتبط بتاتا9مرتبط جدا  '}]   
 	    
     });
 
@@ -455,17 +455,17 @@ define(['pipAPI'], function(APIconstructor) {
      ***********************************************/
 
 	    API.addTrialSet('scripts', [
-	        {inherit: 'stimulus_trial', data: {text: 'أقوم بالسباحه في البحيره مغمضة العينين واسمع  خفيف الأشجار  ', sid: 60}},
-	        {inherit: 'stimulus_trial', data: {text: ' انا اجلس مع حبيبي امام المدفئه ونحتسي الشوكولا الساخنه ', sid: 61}},
-	        {inherit: 'stimulus_trial', data: {text: 'انا جالس في السينما وبجانبي حبيبي يجاول التودد الي ', sid: 62}},
-	        {inherit: 'stimulus_trial', data: {text: 'استيقظ متاخره عشرة دقائق للامتحان الذي درست له اسبوعان ', sid: 74}},
+	        {inherit: 'stimulus_trial', data: {text: 'أقوم بالسباحه في البحيره مغمض العينين واسمع  خفيف الأشجار  ', sid: 60}},
+	        {inherit: 'stimulus_trial', data: {text: ' انا اجلس مع حبيبتي امام المدفئه ونحتسي الشوكولا الساخنه ', sid: 61}},
+	        {inherit: 'stimulus_trial', data: {text: 'انا جالس في السينما وبجانبي حبيتبي تحاول التودد الي ', sid: 62}},
+	        {inherit: 'stimulus_trial', data: {text: 'استيقظ متاخر عشرة دقائق للامتحان الذي درست له اسبوعان ', sid: 74}},
 	        {inherit: 'stimulus_trial', data: {text: 'انا اقف لعرض مشروعي امام الصف ولا أتذكر أي شيء  ', sid: 75}},
 	        {inherit: 'stimulus_trial', data: {text: 'انا أقوم باحتضان اخي الصغير واعده اني ساسانده دائما  ', sid: 4}},
 	        {inherit: 'stimulus_trial', data: {text: 'انا وامي نحتسي الشاي سويا في ليله صيفيه هادئه  ', sid: 5}},
 	        {inherit: 'stimulus_trial', data: {text: 'انا وابي نحمل صناره ودلو وفي طريقنا لاصطياد الأسماك   ', sid: 6}},
 		{inherit: 'stimulus_trial', data: {text: 'انا احصل على علامه ممتازه  بامتحان القبول للقب الثاني  ', sid:18}},
 	        {inherit: 'stimulus_trial', data: {text: 'بعد انهاء عرض بحثي وقف جميع الطلاب تسفيقا لي  ', sid: 19}},
-	        {inherit: 'stimulus_trial', data: {text: 'انا انهي الامتحان الأخيرلهذا الفصل وكل اجوبتي صحيحه  ', sid: 20}},
+	        {inherit: 'stimulus_trial', data: {text: 'انا انهي الامتحان الأخير لهذا الفصل وكل اجوبتي صحيحه  ', sid: 20}},
 	        {inherit: 'stimulus_trial', data: {text: 'أعثر في جيبي على مبلغ مال كنت قد نسيته  ', sid: 32}},
 	        {inherit: 'stimulus_trial', data: {text: 'يتصلون بي لاخباري اني ربحت سياره وانا ذاهب لاستلامها    ', sid: 33}},
 	        {inherit: 'stimulus_trial', data: {text: 'أصدقائي يرغمونني على المشاركه بورقة يانصيب و افوز بمبلغ ضخم   ', sid: 34}},
@@ -474,14 +474,14 @@ define(['pipAPI'], function(APIconstructor) {
 	        {inherit: 'stimulus_trial', data: {text: 'اكتشف ان فقره قصيره كتبتها بفيسبوك تحظى  بآلاف الإعجابات  ', sid: 263}},
 	        {inherit: 'stimulus_trial', data: {text: 'افوم بكتابه اخر سطر من الكتاب المؤلف عن حياتي    ', sid: 59}},
 	        {inherit: 'stimulus_trial', data: {text: 'بعد ان عملت على الوظيفه شهرا اتلقى علامة سقوط ', sid: 76}},
-	        {inherit: 'stimulus_trial', data: {text: ' قوم بجر امي على كرسي متحرك ما بعد الحادثه التي تسببتها    ', sid: 85}},
+	        {inherit: 'stimulus_trial', data: {text: ' اقوم بجر امي على كرسي متحرك ما بعد الحادثه التي تسببتها    ', sid: 85}},
 	        {inherit: 'stimulus_trial', data: {text: 'اكتشف ان اخي الصغير يقوم بتوزيع المخدرات لاولاد المدارس  ', sid: 86}},
 	        {inherit: 'stimulus_trial', data: {text: 'ابي واخي يتشاجرون وفي منتصف الشجار اخي يضرب ابي  ', sid: 87}},
 	        {inherit: 'stimulus_trial', data: {text: ' أرى من نافذتي اولادا يحاولون حرق قطه داخل صندوق ', sid: 96}},
 	        {inherit: 'stimulus_trial', data: {text: ' انا أقوم بدهس قطه اثناء سياقتي بسبب انشغالي بالهاتف  ', sid: 97}},
 	        {inherit: 'stimulus_trial', data: {text: ' أرى ولدا يغرق ولا اساعده لاني لا اعرف السباحه   ', sid: 98}},
-		{inherit: 'stimulus_trial', data: {text: '  بعد علاقه غراميه دامت لسنوات يقوم بالانفصال عني  ', sid: 107}},
-	        {inherit: 'stimulus_trial', data: {text: ' أقوم باكتشاف وجود علاقه غراميه بين حبيبي السابق وصديقتي ', sid: 108}},
+		{inherit: 'stimulus_trial', data: {text: '  بعد علاقه غراميه دامت لسنوات تقوم بالانفصال عني  ', sid: 107}},
+	        {inherit: 'stimulus_trial', data: {text: ' أقوم باكتشاف وجود علاقه غراميه بين حبيبتي السابقه وصديقي ', sid: 108}},
 	        {inherit: 'stimulus_trial', data: {text: '  صديقتي تخبرني انها مثلية الجنس وانها تكن لي المشاعر ', sid: 109}},
 	        {inherit: 'stimulus_trial', data: {text: 'بعد ان تحدثت بالعربيه بالقطار  رجل بجانبي يغير مكانه  ', sid: 118}},
 	        {inherit: 'stimulus_trial', data: {text: 'انااشهد  تلقي عجوز اجابة عدم الاصابه بفيروس الكورونا     ', sid: 48}},
@@ -489,7 +489,7 @@ define(['pipAPI'], function(APIconstructor) {
 	        {inherit: 'stimulus_trial', data: {text: 'لا يشركونني يبرنامج للمواهب بادعائهم ان العرب غير موهوبين ', sid: 120}},
 	        {inherit: 'stimulus_trial', data: {text: '      اتبرع بالمال  لدار الايتام لكن المسؤلين عن الميتم يسرقونه   ', sid: 130}},
 	        {inherit: 'stimulus_trial', data: {text: '  خسرت جميع نقودي في مشروع كنت قد استثمرت فيه  ', sid: 131}},
-	        {inherit: 'stimulus_trial', data: {text: '   اليوم الموعد الأخير لدفع قشط التعليم و ليس بحوزتي المال  ', sid: 132}},
+	        {inherit: 'stimulus_trial', data: {text: '   اليوم الموعد الأخير لدفع قسط التعليم و ليس بحوزتي المال  ', sid: 132}},
 	        {inherit: 'stimulus_trial', data: {text: 'أقوم بالقفز ثلاث مرات على قدمي اليمين رافعا يدي ', sid: 159}},
 	        {inherit: 'stimulus_trial', data: {text: 'انا ارفع حاسوبي النقال واضعه  في داخل محفظة الظهر    ', sid: 160}},
 	        {inherit: 'stimulus_trial', data: {text: 'انا اربط الحذاء الرياضي لاختي واقوم بالباسها حقيبة الظهر   ', sid: 161}},
@@ -522,9 +522,9 @@ define(['pipAPI'], function(APIconstructor) {
 	        {inherit: 'stimulus_trial', data: {text: '  اضع  يدي  بجيبي وأجد مئتا شيكلا لست انا من وضعهم   ', sid: 257}},
 	        {inherit: 'stimulus_trial', data: {text: ' انا أقفز إلى أعلى وبقفزة واحدة  اصل لسطح المبنى    ', sid: 258}},
 		{inherit: 'stimulus_trial', data: {text: 'انحفر المقال بذاكرتي فقط من خلال القاءي نظره عليه ', sid: 259}},
-	        {inherit: 'stimulus_trial', data: {text: '  محاضري يتواصل معي بطلب ان  اكون مساعدته في بحث', sid: 260}},
-	        {inherit: 'stimulus_trial', data: {text: ' انا أرقص في قاعة كبيرة مع أمير يراقبني بإعجاب     ', sid: 261}},
-	        {inherit: 'stimulus_trial', data: {text: ' أنا سباحه شهيرة عالميا افوز بالمركز الأول في الأولمبيادة      ', sid: 262}}
+	        {inherit: 'stimulus_trial', data: {text: '  محاضري يتواصل معي بطلب ان  اكون مساعده في بحث', sid: 260}},
+	        {inherit: 'stimulus_trial', data: {text: ' انا أرقص في قاعة كبيرة مع أميره تراقبني بإعجاب     ', sid: 261}},
+	        {inherit: 'stimulus_trial', data: {text: ' أنا سباح مشهور عالميا افوز بالمركز الأول في الأولمبيادة      ', sid: 262}}
 	    ]);
     
     
