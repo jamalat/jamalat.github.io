@@ -482,7 +482,7 @@ define(['pipAPI'], function(APIconstructor) {
 	        {inherit: 'stimulus_trial', data: {text: ' أرى ولدا يغرق ولا اساعده لاني لا اعرف السباحه   ', sid: 98}},
 		{inherit: 'stimulus_trial', data: {text: '  بعد علاقه غراميه دامت لسنوات تقوم بالانفصال عني  ', sid: 107}},
 	        {inherit: 'stimulus_trial', data: {text: ' أقوم باكتشاف وجود علاقه غراميه بين حبيبتي السابقه وصديقي ', sid: 108}},
-	        {inherit: 'stimulus_trial', data: {text: '  صديقتي تخبرني انها مثلية الجنس وانها تكن لي المشاعر ', sid: 109}},
+	        {inherit: 'stimulus_trial', data: {text: '  صديقي يخبرني انه مثلي الجنس وانه يكن لي المشاعر ', sid: 109}},
 	        {inherit: 'stimulus_trial', data: {text: 'بعد ان تحدثت بالعربيه بالقطار  رجل بجانبي يغير مكانه  ', sid: 118}},
 	        {inherit: 'stimulus_trial', data: {text: 'انااشهد  تلقي عجوز اجابة عدم الاصابه بفيروس الكورونا     ', sid: 48}},
 	        {inherit: 'stimulus_trial', data: {text: 'ألموظفون اليهود معي في العمل يتقاضون اجرا اكثر مني    ', sid: 119}},
