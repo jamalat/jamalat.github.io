@@ -510,7 +510,7 @@ define(['pipAPI'], function(APIconstructor) {
 	        {inherit: 'stimulus_trial', data: {text: ' انا اقوم بتنشيف يداي بعد ان غسلتهم بالماء والصابون  ', sid: 211}},
 	        {inherit: 'stimulus_trial', data: {text: ' انا افصل هاتفي من الشاحن واقوم بارجاعه الى جيبي  ', sid: 192}},
 	        {inherit: 'stimulus_trial', data: {text: ' انا ادخل للصندوق زجاجات البلاستيك واضعها بجانب زجاجات الزجاج    ', sid: 194}},
-		{inherit: 'stimulus_trial', data: {text: 'أستيقظ في الصباح بجانب شخص غريب يقول إنه زوجي    ', sid: 239}},
+		{inherit: 'stimulus_trial', data: {text: 'أستيقظ في الصباح بجانب امراه غريبه تقول إنها زوجتي    ', sid: 239}},
 	        {inherit: 'stimulus_trial', data: {text: 'انا أكتشف أن لحبيبتي  يوجد طفل من صديقي العزيز   ', sid: 240}},
 	        {inherit: 'stimulus_trial', data: {text: ' انا افقد السيطره على نفسي واقوم بضرب طفل رضيع    ', sid: 241}},
 	        {inherit: 'stimulus_trial', data: {text: 'أصابعي تتشوه وتتعفن وتسقط واحدة تلو الأخرى    ', sid: 242}},
