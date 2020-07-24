@@ -457,7 +457,7 @@ define(['pipAPI'], function(APIconstructor) {
 	    API.addTrialSet('scripts', [
 	        {inherit: 'stimulus_trial', data: {text: 'أقوم بالسباحه في البحيره مغمضة العينين واسمع  خفيف الأشجار  ', sid: 60}},
 	        {inherit: 'stimulus_trial', data: {text: ' انا اجلس مع حبيبي امام المدفئه ونحتسي الشوكولا الساخنه ', sid: 61}},
-	        {inherit: 'stimulus_trial', data: {text: 'انا جالس في السينما وبجانبي حبيبي يجاول التودد الي ', sid: 62}},
+	        {inherit: 'stimulus_trial', data: {text: 'انا اجلس في السينما وبجانبي حبيبي يجاول التودد الي ', sid: 62}},
 	        {inherit: 'stimulus_trial', data: {text: 'استيقظ متاخره عشرة دقائق للامتحان الذي درست له اسبوعان ', sid: 74}},
 	        {inherit: 'stimulus_trial', data: {text: 'انا اقف لعرض مشروعي امام الصف ولا أتذكر أي شيء  ', sid: 75}},
 	        {inherit: 'stimulus_trial', data: {text: 'انا أقوم باحتضان اخي الصغير واعده اني ساسانده دائما  ', sid: 4}},
@@ -465,7 +465,7 @@ define(['pipAPI'], function(APIconstructor) {
 	        {inherit: 'stimulus_trial', data: {text: 'انا وابي نحمل صناره ودلو وفي طريقنا لاصطياد الأسماك   ', sid: 6}},
 		{inherit: 'stimulus_trial', data: {text: 'انا احصل على علامه ممتازه  بامتحان القبول للقب الثاني  ', sid:18}},
 	        {inherit: 'stimulus_trial', data: {text: 'بعد انهاء عرض بحثي وقف جميع الطلاب تسفيقا لي  ', sid: 19}},
-	        {inherit: 'stimulus_trial', data: {text: 'انا انهي الامتحان الأخيرلهذا الفصل وكل اجوبتي صحيحه  ', sid: 20}},
+	        {inherit: 'stimulus_trial', data: {text: 'انا انهي الامتحان الأخير لهذا الفصل وكل اجوبتي صحيحه  ', sid: 20}},
 	        {inherit: 'stimulus_trial', data: {text: 'أعثر في جيبي على مبلغ مال كنت قد نسيته  ', sid: 32}},
 	        {inherit: 'stimulus_trial', data: {text: 'يتصلون بي لاخباري اني ربحت سياره وانا ذاهب لاستلامها    ', sid: 33}},
 	        {inherit: 'stimulus_trial', data: {text: 'أصدقائي يرغمونني على المشاركه بورقة يانصيب و افوز بمبلغ ضخم   ', sid: 34}},
