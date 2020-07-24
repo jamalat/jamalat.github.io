@@ -518,15 +518,15 @@ define(['pipAPI'], function(APIconstructor) {
         {inherit: 'stimulus_trial', data: {text: 'انا اصل الى بيت والداي  واجد مكان البيت انقادا    ', sid: 218}},
         {inherit: 'stimulus_trial', data: {text: 'من خلال ثقب في الجدار يدخل للغرفه عشرات الجرذان ', sid: 219}},
         {inherit: 'stimulus_trial', data: {text: ' شفتاي  ملصقتان بالدبق وانا لا اقدر على فتح فمي       ', sid: 220}},
-        {inherit: 'stimulus_trial', data: {text: 'أنا اغمض عيناي وادخل في لعبة كمبيوتر وأقوم بربحها  ', sid: 248}},
-        {inherit: 'stimulus_trial', data: {text: 'انا أطير بسرعة في السماء مثل سوبرمان واتجاوز الغيوم  ', sid: 249}},
-        {inherit: 'stimulus_trial', data: {text: 'أركز بشدة وأتمكن من رفع كتاب بالهواء بقوة التفكير  ', sid: 250}},
-        {inherit: 'stimulus_trial', data: {text: '  ينتظرني خبير تجميل في المنزل ليفعل كل شيء لأجلي  ', sid: 251}},
-        {inherit: 'stimulus_trial', data: {text: ' انا أقوم بتكسير سيارة اكثر شخص اكرهه في العالم     ', sid: 252}},
-	{inherit: 'stimulus_trial', data: {text: 'يغمى علي وعند استيقاظي اكتشف انني استطيع قراءة  الأفكار   ', sid: 253}},
-        {inherit: 'stimulus_trial', data: {text: '  نمت لي  أجنحة ضخمة وانا أطير في السماء الزرقاء ', sid: 254}},
-        {inherit: 'stimulus_trial', data: {text: ' يوجد معي عصا سحريه تقوم بتلبية كل  ما اريد     ', sid: 255}},
-        {inherit: 'stimulus_trial', data: {text: ' انا افوز بمنافسة ملك جمال العالم لعام الفين وعشرين      ', sid: 282}}
+        {inherit: 'stimulus_trial', data: {text: 'أنا اغمض عيناي وادخل في لعبة كمبيوتر وأقوم بربحها  ', sid: 247}},
+        {inherit: 'stimulus_trial', data: {text: 'انا أطير بسرعة في السماء مثل سوبرمان واتجاوز الغيوم  ', sid: 248}},
+        {inherit: 'stimulus_trial', data: {text: 'أركز بشدة وأتمكن من رفع كتاب بالهواء بقوة التفكير  ', sid: 249}},
+        {inherit: 'stimulus_trial', data: {text: '  ينتظرني خبير تجميل في المنزل ليفعل كل شيء لأجلي  ', sid: 250}},
+        {inherit: 'stimulus_trial', data: {text: ' انا أقوم بتكسير سيارة اكثر شخص اكرهه في العالم     ', sid: 251}},
+	{inherit: 'stimulus_trial', data: {text: 'يغمى علي وعند استيقاظي اكتشف انني استطيع قراءة  الأفكار   ', sid: 252}},
+        {inherit: 'stimulus_trial', data: {text: '  نمت لي  أجنحة ضخمة وانا أطير في السماء الزرقاء ', sid: 253}},
+        {inherit: 'stimulus_trial', data: {text: ' يوجد معي عصا سحريه تقوم بتلبية كل  ما اريد     ', sid: 254}},
+        {inherit: 'stimulus_trial', data: {text: ' انا افوز بمنافسة ملك جمال العالم لعام الفين وعشرين      ', sid: 281}}
     ]);
    
     /***********************************************
