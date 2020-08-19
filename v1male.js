@@ -488,7 +488,7 @@ define(['pipAPI'], function(APIconstructor) {
         {inherit: 'stimulus_trial', data: {text: 'اكتشف اني القيت للنفابات المال الذي اعطتني إياه امي  ', sid: 127}},
         {inherit: 'stimulus_trial', data: {text: '    اكتشف ان المال اللذي وفرته جانبا للسفر قد سرق ', sid: 128}},
         {inherit: 'stimulus_trial', data: {text: 'انا اقوم بتغليف رزمة ورق واضعهم في داخل الصناديق ', sid: 141}},
-        {inherit: 'stimulus_trial', data: {text: 'ا انا ادخل الصف واجلس على كرسيي منتظرا حضور المحاضر ', sid: 142}},
+        {inherit: 'stimulus_trial', data: {text: ' انا ادخل الصف واجلس على كرسيي منتظرا حضور المحاضر ', sid: 142}},
         {inherit: 'stimulus_trial', data: {text: 'انتظر ثلاث دقائق حتى يسخن الماء في المسخن الكهربائي   ', sid: 143}},
         {inherit: 'stimulus_trial', data: {text: 'انا اسمع صوت الناس يتهامسون في الغرفه المجاوره الي   ', sid: 144}},
         {inherit: 'stimulus_trial', data: {text: 'أقوم بإزالة الغطاء عن العلبه وارميه في سلة القمامه  ', sid: 145}},
