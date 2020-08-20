@@ -49,7 +49,7 @@ define(['pipAPI'], function(APIconstructor) {
  	    version_id   : version_id,
  	    answers      : answers,
         instructions: {
-            inst_welcome : ` <p> خلال البحث يطلب منكم قراءه وتخيل 70 جمله  </p></br>
+            inst_welcome : `<p> خلال البحث يطلب منكم قراءه وتخيل 70 جمله  </p></br>
                             <p> يعد القراءه الرجاء التخيل انفسكم بالوضع الموصوف في كل جمله ويعد ذلك الضغط على الفراغ </p></br>
                             <p> بعد كل جمله يطلب منكم الجواب على 9 اسئله </p></br>                          
                             <p>الاجوبه المناسبه تضغط بواسطة الضغط على لوحة الارقام </p></br>
@@ -544,7 +544,7 @@ define(['pipAPI'], function(APIconstructor) {
 					mixer: 'repeat',
 					times: 70,
 					data: [
-                        {inherit:{set:'scripts', type:'equalDistribution', n: 8, seed:'a'}, data:{block: 'practice'}}
+                        {inherit:{set:'scripts', type:'equalDistribution', n: 70, seed:'a'}, data:{block: 'practice'}}
 					]
 				}
 			]
