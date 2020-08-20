@@ -49,9 +49,7 @@ define(['pipAPI'], function(APIconstructor) {
  	    version_id   : version_id,
  	    answers      : answers,
         instructions: {
-            inst_welcome : ` 
-                            
-                            <p> خلال البحث يطلب منكم قراءه وتخيل 70 جمله  </p></br>
+            inst_welcome : ` <p> خلال البحث يطلب منكم قراءه وتخيل 70 جمله  </p></br>
                             <p> بعد كل جمله  يطلب منكم الجواب على 9 اسئله </p></br>                          
                             <p>الاجوبه المناسبه تضغط بواسطة الضغط على لوحة الارقام من 1-9 </p></br>
                              <p> اضغطي على الفراغ للبدا بالبحث</p>`,
