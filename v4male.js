@@ -543,7 +543,7 @@ define(['pipAPI'], function(APIconstructor) {
 					mixer: 'repeat',
 					times: 70,
 					data: [
-                        {inherit:{set:'scripts', type:'equalDistribution', n: 8, seed:'a'}, data:{block: 'practice'}}
+                        {inherit:{set:'scripts', type:'equalDistribution', n: 70, seed:'a'}, data:{block: 'practice'}}
 					]
 				}
 			]
