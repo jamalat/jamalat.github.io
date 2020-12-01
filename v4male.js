@@ -221,12 +221,7 @@ define(['pipAPI'], function(APIconstructor) {
         		    {type:'setInput', input:{handle:'q1_1', on: 'keypressed', key: '1'}},
         		    {type:'setInput', input:{handle:'q1_2', on: 'keypressed', key: '2'}},
         		    {type:'setInput', input:{handle:'q1_3', on: 'keypressed', key: '3'}},
-        		    {type:'setInput', input:{handle:'q1_4', on: 'keypressed', key: '4'}},
-        		    {type:'setInput', input:{handle:'q1_5', on: 'keypressed', key: '5'}},
-        		    {type:'setInput', input:{handle:'q1_6', on: 'keypressed', key: '6'}},
-        		    {type:'setInput', input:{handle:'q1_7', on: 'keypressed', key: '7'}},
-        		    {type:'setInput', input:{handle:'q1_8', on: 'keypressed', key: '8'}},
-        		    {type:'setInput', input:{handle:'q1_9', on: 'keypressed', key: '9'}},
+        		
                     {type:'resetTimer'},
         		    {type:'showStim', handle: 'Q1'},
                 ]
