@@ -93,15 +93,15 @@ define(['pipAPI'], function(APIconstructor) {
 
     API.addStimulusSets({
         defaultStim : [{css:{color:'black', 'font-size':'30px'}}],
-        Q1          : [{inherit:'defaultStim', media: 'حدد ما  نوع الشعور الذي اتاك من  الجمله عندما تخيلت الوضع الموصوف؟اذا كان إيجابي اضغط   1 واذا كان حيادي اضغط 2 واذا سلبي اضغط  3'}],
-        Q2          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 ما هي شدة هذا الشعور ؟1 بلا شعور 9 شعور قوي جدا   '}],    
-	    Q3          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 ما هو احتمال حصول ما ذكر بالجمله لك ؟1 لا يوجد احتمال 9 احتمال قوي جدا  '}],
-        Q4          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 ما مدى سرعة قفز الوضع الموصوف الى مخيلتك فور قراءتها ؟1 بطئ جدا 9 سريع جدا '}],      
-	    Q5          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 مدى كون الوضع الموصوف في الجمله حي ومفصل  ؟1 ليس حي ولا مفصل 9 حي ومفصل جدا '}],
-        Q6          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 كم استهلكت من الجهد حتى تتوقف عن التفكير بالوضع الموصوف بالجمله  ؟1 بلا جهد9 جهد كبير  '}],    
-	    Q7          : [{inherit:'defaultStim', media: '  حدد من 1 حتى 9 كم كان الوضع الموصوف في الجمله مرتبط بطموحاتك ؟1 غير مرتبط بتاتا9 مرتبط جدا  '}],
-        Q8          : [{inherit:'defaultStim', media: '  حدد من 1 حتى 9 كم كان الوضع الموصوف في الجمله مرتبط باحتياجاتك ؟1 غير مرتبط بتاتا9 مرتبط جدا  '}], 
-	    Q9          : [{inherit:'defaultStim', media: ' حدد من 1 حتى 9 كم كان الوضع الموصوف في الجمله مرتبط بمخاوفك؟1 غير مرتبط بتاتا9مرتبط جدا  '}]   
+        Q1          : [{inherit:'defaultStim', media: 'حدد ما  نوع الشعور الذي اتاك من  الجملة عندما تخيلت الوضع الموصوف؟اذا كان إيجابي اضغط   1 واذا كان حيادي اضغط 2 واذا سلبي اضغط  3'}],
+        Q2          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 ما  شدة هذا الشعور ؟1 بلا شعور 9 شعور قوي جدا   '}],    
+	    Q3          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 ما هو احتمال حصول ما ذكر بالجملة لك ؟1 لا يوجد احتمال 9 احتمال قوي جدا  '}],
+        Q4          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 ما مدى سرعة قفز الوضع الموصوف الى مخيلتك فور قراءة الجملة ؟1 بطيء جدا 9 سريع جدا '}],      
+	    Q5          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 مدى كون الوضع الموصوف في الجملة حي ومفصل  ؟1 ليس حي ولا مفصل 9 حي ومفصل جدا '}],
+        Q6          : [{inherit:'defaultStim', media: 'حدد من 1 حتى 9 كم استهلكت من جهد حتى تتوقف عن التفكير بالوضع الموصوف بالجملة  ؟1 بلا جهد9 جهد كبير  '}],    
+	    Q7          : [{inherit:'defaultStim', media: '  حدد من 1 حتى 9 كم كان الوضع الموصوف في الجملة مرتبط بطموحاتك ؟1 غير مرتبط بتاتا9 مرتبط جدا  '}],
+        Q8          : [{inherit:'defaultStim', media: '  حدد من 1 حتى 9 كم كان الوضع الموصوف في الجملة مرتبط باحتياجاتك ؟1 غير مرتبط بتاتا9 مرتبط جدا  '}], 
+	    Q9          : [{inherit:'defaultStim', media: ' حدد من 1 حتى 9 كم كان الوضع الموصوف في الجملة مرتبط بمخاوفك؟1 غير مرتبط بتاتا9مرتبط جدا  '}]   
 	    
     });
 
@@ -495,7 +495,7 @@ define(['pipAPI'], function(APIconstructor) {
         {inherit: 'stimulus_trial', data: {text: 'انا انعطف لليمين اعبر من خلف الحديقه نحو البيت   ', sid: 146}},
 	{inherit: 'stimulus_trial', data: {text: 'أقوم بشغيل الجهاز بعد ان قرات التعليمات حول استخدامه ', sid: 147}},
         {inherit: 'stimulus_trial', data: {text: 'أقوم بوضع اشاره الى اين وصلت في الكتاب واغلقه ', sid: 148}},
-        {inherit: 'stimulus_trial', data: {text: 'انا ادخل الى الصالون واعبر منه الى الشرفه الاماميه  ', sid: 159}},
+        {inherit: 'stimulus_trial', data: {text: 'انا ادخل الى الصالون واعبر منه الى الشرفه الاماميه  ', sid: 149}},
         {inherit: 'stimulus_trial', data: {text: 'انا اضع اللاصقات على الكتب وارتبهم على رف المكتبه   ', sid:150}},
         {inherit: 'stimulus_trial', data: {text: 'انا افتح خزانة المطبخ لكي اتناول ملعقة طعام وصحن    ', sid: 151}},
         {inherit: 'stimulus_trial', data: {text: 'انا اطفا الضوء في الغرفه قبل ان أقوم باغلاقها   ', sid: 152}},
@@ -515,13 +515,13 @@ define(['pipAPI'], function(APIconstructor) {
         {inherit: 'stimulus_trial', data: {text: 'من خلال ثقب في الجدار يدخل للغرفه عشرات الجرذان ', sid: 219}},
         {inherit: 'stimulus_trial', data: {text: ' شفتاي  ملصقتان بالدبق وانا لا اقدر على فتح فمي       ', sid: 220}},
         {inherit: 'stimulus_trial', data: {text: 'أنا اغمض عيناي وادخل في لعبة كمبيوتر وأقوم بربحها  ', sid: 247}},
-        {inherit: 'stimulus_trial', data: {text: 'انا أطير بسرعة في السماء مثل سوبرمان واتجاوز الغيوم  ', sid: 248}},
-        {inherit: 'stimulus_trial', data: {text: 'أركز بشدة وأتمكن من رفع كتاب بالهواء بقوة التفكير  ', sid: 249}},
-        {inherit: 'stimulus_trial', data: {text: '  ينتظرني خبير تجميل في المنزل ليفعل كل شيء لأجلي  ', sid: 250}},
-        {inherit: 'stimulus_trial', data: {text: ' انا أقوم بتكسير سيارة اكثر شخص اكرهه في العالم     ', sid: 251}},
-	{inherit: 'stimulus_trial', data: {text: 'يغمى علي وعند استيقاظي اكتشف انني استطيع قراءة  الأفكار   ', sid: 252}},
-        {inherit: 'stimulus_trial', data: {text: '  نمت لي  أجنحة ضخمة وانا أطير في السماء الزرقاء ', sid: 253}},
-        {inherit: 'stimulus_trial', data: {text: ' يوجد معي عصا سحريه تقوم بتلبية كل  ما اريد     ', sid: 254}},
+        {inherit: 'stimulus_trial', data: {text: 'انا أطير بسرعة في السماء مثل سوبرمان واتجاوز الغيوم  ', sid: 247}},
+        {inherit: 'stimulus_trial', data: {text: 'أركز بشدة وأتمكن من رفع كتاب بالهواء بقوة التفكير  ', sid: 248}},
+        {inherit: 'stimulus_trial', data: {text: '  ينتظرني خبير تجميل في المنزل ليفعل كل شيء لأجلي  ', sid: 249}},
+        {inherit: 'stimulus_trial', data: {text: ' انا أقوم بتكسير سيارة اكثر شخص اكرهه في العالم     ', sid: 250}},
+	{inherit: 'stimulus_trial', data: {text: 'يغمى علي وعند استيقاظي اكتشف انني استطيع قراءة  الأفكار   ', sid: 251}},
+        {inherit: 'stimulus_trial', data: {text: '  نمت لي  أجنحة ضخمة وانا أطير في السماء الزرقاء ', sid: 252}},
+        {inherit: 'stimulus_trial', data: {text: ' يوجد معي عصا سحريه تقوم بتلبية كل  ما اريد     ', sid: 253}},
         {inherit: 'stimulus_trial', data: {text: ' انا افوز بمنافسة ملك جمال العالم لعام الفين وعشرين      ', sid: 281}}
     ]);
    
